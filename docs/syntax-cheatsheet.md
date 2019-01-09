@@ -18,7 +18,8 @@ We've worked very hard to make Reason look like JS while preserving OCaml's grea
 | ---------------------- | --------------------- |
 | `"Hello world!"`       | Same                  |
 | `'Hello world!'`       | Strings must use `"`  |
-| Characters are strings | `'a'`                 |
+| `"a"` is a string      | Same                  |
+| `'a'` is a string      | `'a'` is a character  |
 | `"hello " + "world"`   | `"hello " ++ "world"` |
 
 ## Boolean
